@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+/*used to get fonts from Google*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: #facdab;
+}
+
+h1 {
+font-family: 'Yeseva One', cursive;
+  color: #be6572;
+  letter-spacing: 5px;
+  padding: 50px;
+  border-style: dotted;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #265f83;
+  font-family: 'Zilla Slab', serif;
+  letter-spacing: 2px;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-evenly;
+}
+
+.answer-choice img {
+  height: 15em;
+  width: em;
+}
+button {
+  border-color: #fbc7ae;
+}
